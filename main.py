@@ -206,7 +206,7 @@ class App(tk.Tk):
         hdr.pack(fill="x")
         tk.Label(hdr, text="FITGIRL REPACK DOWNLOADER",
                  font=("Consolas", 15, "bold"), bg=BG, fg=GREEN).pack()
-        tk.Label(hdr, text="github.com/brianchege",
+        tk.Label(hdr, text="https://github.com/CHEGEBB/fitgirl-repack-downloader",
                  font=("Consolas", 9), bg=BG, fg=DIM).pack()
 
         ttk.Separator(self).pack(fill="x", padx=16)

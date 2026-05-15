@@ -9,69 +9,49 @@ No IDM needed. Just paste a link and go.
 
 ### Step 1 — Find your game on FitGirl Repacks
 
-![FitGirl Page](<Screenshot 2026-05-15 085354.png>)
+![alt text](<Screenshot 2026-05-15 085354.png>)
 
-Go to [fitgirl-repacks.site](https://fitgirl-repacks.site), find your game, click it, and copy the page URL from your browser address bar.
+Go to [fitgirl-repacks.site](https://fitgirl-repacks.site), find your game and copy the page URL from your browser.
 
-![Game Page](<Screenshot 2026-05-15 085446.png>)
-
-Use the **FuckingFast** mirror links — that's what this tool downloads from.
+![alt text](<Screenshot 2026-05-15 085446.png>)
 
 ---
 
-### Step 2 — Paste URL and download
+### Step 2 — Paste the URL and fetch links
 
-![GUI Screenshot](screenshots/gui.png)
+![alt text](image.png)
 
-1. Paste the game page URL → click **Fetch Links**
-2. Tool auto-detects the game name and sets your save folder to `Downloads/FitGirl/<Game Name>`
-3. Pick batch size (how many files download at once)
-4. Click **▶ START DOWNLOAD** and walk away
+Paste the game page URL, click **Fetch Links**, choose your save folder and batch size, then hit **START DOWNLOAD**.
 
 ---
 
 ## Setup
 
 1. Install [Python 3.8+](https://www.python.org/downloads/) — tick **"Add to PATH"** during install
-2. Double-click **`START.bat`** — installs dependencies and opens the app
+2. Double-click **`START.bat`** — installs dependencies and launches the app
 
-That's it. No other setup needed.
+That's it.
 
 ---
 
 ## Features
 
-- Auto-fetches all fuckingfast download links from any FitGirl game page
-- Auto-names save folder after the game (e.g. `Downloads/FitGirl/Ghost Of Tsushima Directors Cut`)
+- Auto-fetches all fuckingfast download links from any FitGirl page
 - Skips language packs automatically
-- Per-file progress bars with speed and percentage
-- Overall download progress bar
 - Skips already downloaded files — safe to stop and resume anytime
 - Auto-retries failed downloads (3 attempts)
-- Scrollable file list showing status of every part
+- Overall progress bar and live log
+- Defaults save folder to `Downloads/FitGirl`
 - Works overnight unattended
-
----
-
-## Batch Size Guide
-
-| Batch | Best For | Speed Per File |
-|-------|----------|---------------|
-| 1 | Slow connections (recommended) | Full bandwidth |
-| 2 | Medium connections | Half bandwidth |
-| 3 | Fast connections | Third bandwidth |
-| 4-5 | Very fast connections | Shared bandwidth |
-| 6 | Max — risk of rate limiting | Shared bandwidth |
-
-> Each file is ~500 MB. Do not exceed 5 — fuckingfast.co will rate limit you.
 
 ---
 
 ## Tips
 
-- If you stop the script mid-download, just rerun — already completed files are skipped automatically
-- Best strategy for slow connections: **batch size 1, leave overnight**
-- If a file fails all 3 retries it gets cleaned up and you can rerun to retry it
+- **Batch size 1** = full speed on slow connections (recommended)
+- **Batch size 2-3** = good on fast connections
+- **Never go above 5** — fuckingfast.co will rate limit you
+- If something fails, just rerun — already downloaded files are skipped
 
 ---
 
@@ -82,8 +62,9 @@ fitgirl-repack-downloader/
 ├── main.py            # GUI app
 ├── START.bat          # double-click to launch
 ├── requirements.txt
-├── screenshots/
-│   └── gui.png        # add your GUI screenshot here
+├── screenshots/       # add your screenshots here
+│   ├── fitgirl-page.png
+│   └── gui.png
 └── README.md
 ```
 

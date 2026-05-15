@@ -13,7 +13,7 @@ No IDM needed. Just paste a link and go.
 
 Go to [fitgirl-repacks.site](https://fitgirl-repacks.site), find your game, click it, and copy the page URL from your browser address bar.
 
-![Game Page](<Screenshot 2026-05-15 085446.png>)
+![Uploading Screenshot 2026-05-15 085446.png…]()
 
 Use the **FuckingFast** mirror links — that's what this tool downloads from.
 
@@ -21,7 +21,8 @@ Use the **FuckingFast** mirror links — that's what this tool downloads from.
 
 ### Step 2 — Paste URL and download
 
-![GUI Screenshot](screenshots/gui.png)
+<img width="1070" height="844" alt="Screenshot 2026-05-15 091014" src="https://github.com/user-attachments/assets/b1dd316f-3a05-47d3-ae32-2c19659a0bde" />
+
 
 1. Paste the game page URL → click **Fetch Links**
 2. Tool auto-detects the game name and sets your save folder to `Downloads/FitGirl/<Game Name>`

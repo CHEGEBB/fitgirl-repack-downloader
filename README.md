@@ -13,7 +13,8 @@ No IDM needed. Just paste a link and go.
 
 Go to [fitgirl-repacks.site](https://fitgirl-repacks.site), find your game and copy the page URL from your browser.
 
-![Uploading Screenshot 2026-05-15 085446.png…]()
+<img width="1263" height="1031" alt="Screenshot 2026-05-15 085446" src="https://github.com/user-attachments/assets/51cd8ee0-799d-45cf-a4ec-d5b8729027bb" />
+
 
 Use the **FuckingFast** mirror links — that's what this tool downloads from.
 
